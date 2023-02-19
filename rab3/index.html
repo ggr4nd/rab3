@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>MyProgect</title>
+  </head>
+  <body>
+
+    <a href="#" class="btnlog">Войти по своему логину</a> 
+    <br>
+    <br>
+    <div class="blform">
+     <h1>Авторизация</h1>
+      <form action="">
+        <div class = "SIG">
+          <label for="frmlog">Login</label>
+          <input type="text" id="frmlog" required placeholder="Enter login.." pattern="[^ а-яёА-ЯЁ]+">
+          <br>
+          <label for="frmpass">Password</label>
+          <input type="password" id="frmpass" required placeholder="Enter password.." pattern="[^ а-яёА-ЯЁ]+">
+          <br>
+          <input id ="btnLOGIN" type="button" value="Log in" class="but">
+          <input type="reset" value="Cancel">
+        </div>
+      </form>
+    </div>
+
+    <a href="#" class="btnUP">Зарегистрироваться</a> 
+    <br>
+    <br>
+    
+    <div class = "SUP">
+      <h1>Зарегистрироваться</h1>
+      <form action="">
+      <label for="logup">Login</label>
+      <input type="text" id="logup" required placeholder="Enter login.." pattern="[^ а-яёА-ЯЁ]+">
+      <br>
+      <label for="passup">Password</label>
+      <input type="password" id="passup" required placeholder="Enter password.." pattern="[^ а-яёА-ЯЁ]+">
+      <br>
+      <label for="emailup">Email</label>
+      <input type="text" id="emailup" required placeholder="Enter email.." pattern="[^ а-яёА-ЯЁ]+">
+      <br>
+
+      <input id ="butUP" type="button" value="Sign up" class="butt">
+      <input type="reset" value="Cancel">
+     </form>
+    </div>
+    <br>
+    <br>
+
+    <div class="container">
+      <h1>Акции</h1>
+      <div class="slider">
+          <div class="sliderLine">
+            <a class = "ms1" href="#inf1"> <img class="imgs1" src="img/1.jpg" alt=""> </a>  
+            <a  class = "ms3" href="#inf2"> <img class="imgs2" src="img/2.jpg" alt=""> </a>  
+            <a class = "ms3"  href="#inf3"> <img class="imgs3" src="img/3.jpg" alt="">  </a>  
+            <a  class = "ms4" href="#inf4"> <img class="imgs4" src="img/4.jpg" alt="">  </a>  
+          </div>
+      </div>
+      <button class="sliderPrev">Предыдущая</button>
+      <button class="sliderNext">Следующая</button>
+    </div>
+
+
+    <div id="inf1">
+      <div id="okno">
+        <p> Игрушка человека паука за 5 рублей только сегодня</p> <br>
+        <a href="#" class="close">Закрыть окно</a>
+      </div>
+    </div>
+
+    <div id="inf2">
+      <div id="okno">
+        <p> Отдадим котенка всего за 50 рублей (возможен торг)</p> <br>
+        <a href="#" class="close">Закрыть окно</a>
+      </div>
+    </div>
+
+    <div id="inf3">
+      <div id="okno">
+        <p> Помощь профессионального психолога, только сегодня, первый сеанс бесплатный</p> <br>
+        <a href="#" class="close">Закрыть окно</a>
+      </div>
+    </div>
+
+    <div id="inf4">
+      <div id="okno">
+        <p> Тест-драйв автомобиля, за 9,9$ только сегодня</p> <br>
+        <a href="#" class="close">Закрыть окно</a>
+      </div>
+    </div>
+
+
+    <div class="content"></div>
+
+    <script src="script.js?v=1"></script>
+  </body>
+</html>
